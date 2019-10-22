@@ -57,6 +57,7 @@ app.post('/football', footballController.create
 );
 
 app.get('/football/:id', footballController.findById
+
 //     function (req, res) {
 //
 //     db.get().collection('football').findOne({ _id: ObjectID(req.params.id)},function (err,docs) {
